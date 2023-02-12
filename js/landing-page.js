@@ -7,9 +7,9 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     console.log(inputEmailField, inputPasswordField);
 
     if (inputEmailField === 'sakib@babar-bank.com' && inputPasswordField === 'helloWorld') {
-        window.location.href = 'bank.html'
+        window.location.href = 'dashboard.html';
     }
     else {
-        alert('Oi beta email password thik moto de')
+        alert('Oi beta email & password thik moto de')
     }
 })
